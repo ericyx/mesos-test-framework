@@ -60,6 +60,5 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
-  "src/CMakeFiles/mesos_test_executor.dir/DependInfo.cmake"
-  "src/CMakeFiles/mesos_test_framework.dir/DependInfo.cmake"
+  "src/CMakeFiles/main.dir/DependInfo.cmake"
   )

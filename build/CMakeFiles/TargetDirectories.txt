@@ -1,2 +1,1 @@
-/root/gitfile/mesos-test-framework/build/src/CMakeFiles/mesos_test_executor.dir
-/root/gitfile/mesos-test-framework/build/src/CMakeFiles/mesos_test_framework.dir
+/root/gitfile/mesos-test-framework/build/src/CMakeFiles/main.dir

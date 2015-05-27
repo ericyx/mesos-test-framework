@@ -102,30 +102,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mesos_test_executor
+# Target rules for targets named main
 
 # Build rule for target.
-mesos_test_executor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos_test_executor
-.PHONY : mesos_test_executor
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-mesos_test_executor/fast:
-	$(MAKE) -f src/CMakeFiles/mesos_test_executor.dir/build.make src/CMakeFiles/mesos_test_executor.dir/build
-.PHONY : mesos_test_executor/fast
-
-#=============================================================================
-# Target rules for targets named mesos_test_framework
-
-# Build rule for target.
-mesos_test_framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos_test_framework
-.PHONY : mesos_test_framework
-
-# fast build rule for target.
-mesos_test_framework/fast:
-	$(MAKE) -f src/CMakeFiles/mesos_test_framework.dir/build.make src/CMakeFiles/mesos_test_framework.dir/build
-.PHONY : mesos_test_framework/fast
+main/fast:
+	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 # Help Target
 help:
@@ -135,8 +122,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... mesos_test_executor"
-	@echo "... mesos_test_framework"
+	@echo "... main"
 .PHONY : help
 
 

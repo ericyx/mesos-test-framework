@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11    CMakeFiles/mesos_test_framework.dir/test_framework.cpp.o  -o mesos_test_framework -rdynamic -lmesos /usr/local/lib/libglog.so -Wl,-rpath,/usr/local/lib 

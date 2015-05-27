@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/root/gitfile/mesos-test-framework/src/test_executor.cpp" "/root/gitfile/mesos-test-framework/build/src/CMakeFiles/mesos_test_executor.dir/test_executor.cpp.o"
+  "/root/gitfile/mesos-test-framework/src/main.cpp" "/root/gitfile/mesos-test-framework/build/src/CMakeFiles/main.dir/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

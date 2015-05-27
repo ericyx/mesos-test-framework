@@ -102,80 +102,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/mesos_test_executor.dir/rule:
-	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mesos_test_executor.dir/rule
-.PHONY : src/CMakeFiles/mesos_test_executor.dir/rule
+src/CMakeFiles/main.dir/rule:
+	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
+.PHONY : src/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-mesos_test_executor: src/CMakeFiles/mesos_test_executor.dir/rule
-.PHONY : mesos_test_executor
+main: src/CMakeFiles/main.dir/rule
+.PHONY : main
 
 # fast build rule for target.
-mesos_test_executor/fast:
-	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/mesos_test_executor.dir/build.make src/CMakeFiles/mesos_test_executor.dir/build
-.PHONY : mesos_test_executor/fast
+main/fast:
+	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-# Convenience name for target.
-src/CMakeFiles/mesos_test_framework.dir/rule:
-	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mesos_test_framework.dir/rule
-.PHONY : src/CMakeFiles/mesos_test_framework.dir/rule
-
-# Convenience name for target.
-mesos_test_framework: src/CMakeFiles/mesos_test_framework.dir/rule
-.PHONY : mesos_test_framework
-
-# fast build rule for target.
-mesos_test_framework/fast:
-	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/mesos_test_framework.dir/build.make src/CMakeFiles/mesos_test_framework.dir/build
-.PHONY : mesos_test_framework/fast
-
-test_executor.o: test_executor.cpp.o
-.PHONY : test_executor.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-test_executor.cpp.o:
-	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/mesos_test_executor.dir/build.make src/CMakeFiles/mesos_test_executor.dir/test_executor.cpp.o
-.PHONY : test_executor.cpp.o
+main.cpp.o:
+	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-test_executor.i: test_executor.cpp.i
-.PHONY : test_executor.i
-
-# target to preprocess a source file
-test_executor.cpp.i:
-	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/mesos_test_executor.dir/build.make src/CMakeFiles/mesos_test_executor.dir/test_executor.cpp.i
-.PHONY : test_executor.cpp.i
-
-test_executor.s: test_executor.cpp.s
-.PHONY : test_executor.s
-
-# target to generate assembly for a file
-test_executor.cpp.s:
-	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/mesos_test_executor.dir/build.make src/CMakeFiles/mesos_test_executor.dir/test_executor.cpp.s
-.PHONY : test_executor.cpp.s
-
-test_framework.o: test_framework.cpp.o
-.PHONY : test_framework.o
-
-# target to build an object file
-test_framework.cpp.o:
-	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/mesos_test_framework.dir/build.make src/CMakeFiles/mesos_test_framework.dir/test_framework.cpp.o
-.PHONY : test_framework.cpp.o
-
-test_framework.i: test_framework.cpp.i
-.PHONY : test_framework.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-test_framework.cpp.i:
-	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/mesos_test_framework.dir/build.make src/CMakeFiles/mesos_test_framework.dir/test_framework.cpp.i
-.PHONY : test_framework.cpp.i
+main.cpp.i:
+	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-test_framework.s: test_framework.cpp.s
-.PHONY : test_framework.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-test_framework.cpp.s:
-	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/mesos_test_framework.dir/build.make src/CMakeFiles/mesos_test_framework.dir/test_framework.cpp.s
-.PHONY : test_framework.cpp.s
+main.cpp.s:
+	cd /root/gitfile/mesos-test-framework/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -184,15 +146,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... mesos_test_executor"
-	@echo "... mesos_test_framework"
+	@echo "... main"
 	@echo "... rebuild_cache"
-	@echo "... test_executor.o"
-	@echo "... test_executor.i"
-	@echo "... test_executor.s"
-	@echo "... test_framework.o"
-	@echo "... test_framework.i"
-	@echo "... test_framework.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
